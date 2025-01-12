@@ -1,0 +1,7 @@
+---
+applications:
+  - name: FinalProject
+    memory: 200M
+    buildpacks:
+      - nodejs_buildpack
+    command: npm start
